@@ -1,0 +1,58 @@
+// using if else//
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int i;
+   cout <<"Enter the age";
+   cin>>i;
+   if (i>=18)
+   {
+       cout <<" the person is eligible to vote";
+       
+   }
+   else
+   cout<<" the person is not eligible to vote";
+
+    return 0;
+}
+// using switch//
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int i;
+   cout <<"Enter the age";
+   cin>>i;
+   switch(i)
+   {
+   case(18):
+   cout<<"the person is eigible to vote";
+   break;
+   case(21):
+   cout<<" the person is eligible to vote";
+   break;
+   default:cout<<" the person is not eligible to vote";
+   }
+   
+}
+// using for//
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int i;
+   cout <<"Enter the age";
+   cin>>i;
+  for(int i=18;i>=18;i++)
+  {
+  cout<<"The person is eligible to vote";
+  }
+   
+}
